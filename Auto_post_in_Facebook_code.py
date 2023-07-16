@@ -42,7 +42,7 @@ time.sleep(5)
 
 # Post statement
 post_state = wait.until(EC.element_to_be_clickable((By.XPATH,'//div[@class="xzsf02u x1a2a7pz x1n2onr6 x14wi4xw x9f619 x1lliihq x5yr21d xh8yej3 notranslate"]')))
-post_state.send_keys("hii,there!")
+# post_state.send_keys("hii,there!") # Enter your message of post
 
 time.sleep(0)
 
